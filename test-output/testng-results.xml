@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-31T17:20:02 IST" name="Default suite" finished-at="2024-10-31T17:20:32 IST" duration-ms="29483">
+    <groups>
+    </groups>
+    <test started-at="2024-10-31T17:20:02 IST" name="Default test" finished-at="2024-10-31T17:20:32 IST" duration-ms="29483">
+      <class name="testCases.TC_001_SignIn">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testCases.TC_001_SignIn@6cb107fd]" started-at="2024-10-31T17:20:02 IST" name="setUp" finished-at="2024-10-31T17:20:22 IST" duration-ms="19902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyLandingPage()[pri:1, instance:testCases.TC_001_SignIn@6cb107fd]" started-at="2024-10-31T17:20:22 IST" name="VerifyLandingPage" finished-at="2024-10-31T17:20:26 IST" duration-ms="4187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyLandingPage -->
+        <test-method signature="loginTest()[pri:2, instance:testCases.TC_001_SignIn@6cb107fd]" started-at="2024-10-31T17:20:26 IST" name="loginTest" finished-at="2024-10-31T17:20:32 IST" duration-ms="5199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- testCases.TC_001_SignIn -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
