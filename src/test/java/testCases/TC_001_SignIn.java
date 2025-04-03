@@ -18,9 +18,12 @@ import testBase.BaseClass;
 public class TC_001_SignIn extends BaseClass  {
 
 	
-	
 	@Test(priority=1)
+
 	public void VerifyLandingPage() throws InterruptedException {
+
+		try {
+		logger.info("**starting test cases***");
 		NavgudieSignPage g=new NavgudieSignPage(driver);
 		String signpagetxt=g.getTextsignpage();
 		Thread.sleep(Duration.ofSeconds(4));
@@ -31,9 +34,16 @@ public class TC_001_SignIn extends BaseClass  {
 		String	Emai=p.getProperty("emailId");
 		System.out.println(Emai);
 		
+		logger.info("**Entered the email id***");
 		
+		
+	}catch(Exception e){
+		logger.error("**Test failed**");
+		logger.debug("debug");
+		Assert.fail();
 	}
-	
+	}
+	 
 	@Test(priority=2)
 	public void loginTest() throws InterruptedException {
 	
@@ -48,13 +58,11 @@ public class TC_001_SignIn extends BaseClass  {
 		l.enterInput(email);
 		l.enterPassword(pass);
 		l.remeberme();
+	
 		
 		Thread.sleep(Duration.ofSeconds(4));
 	}
-
+	}
 	
 
 
-
-
-}

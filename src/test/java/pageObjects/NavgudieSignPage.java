@@ -20,6 +20,9 @@ public class NavgudieSignPage extends BasePage {
 	
 	@FindBy(xpath="//button[text()='Login']") WebElement buttLogin;
 	
+	  
+	
+	
 	
 	
 	public void enterInput(String emailId) {
@@ -27,7 +30,7 @@ public class NavgudieSignPage extends BasePage {
 	}
 	
 	public void enterPassword(String pass) {
-		password.sendKeys("1234567");
+		password.sendKeys(pass);
 	}
 	
 	public void remeberme() {
