@@ -21,6 +21,7 @@ public class MytratestBase {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.get("https://www.myntra.com/login/password");
+		driver.get("https://www.myntra.com/login/password");
 		
 	}
 	

@@ -58,6 +58,7 @@ public class TC_001_SignIn extends BaseClass  {
 		l.enterInput(email);
 		l.enterPassword(pass);
 		l.remeberme();
+		
 	
 		
 		Thread.sleep(Duration.ofSeconds(4));
